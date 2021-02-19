@@ -1,0 +1,41 @@
+{
+  "name": "xrpChess",
+  "version": "1.0.0",
+  "description": "XRP Chess application",
+  "main": "server.js",
+  "dependencies": {
+    "@sendgrid/mail": "^6.1.4",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.14.2",
+    "connect-flash": "^0.1.1",
+    "consolidate": "^0.14.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "html": "^0.0.10",
+    "minimist": "^1.2.0",
+    "mongojs": "^2.3.0",
+    "mongoose": "^4.3.7",
+    "morgan": "^1.6.1",
+    "mustache": "^2.2.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+	"ripple-lib": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "n/a",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "chess",
+    "games",
+	"xrp"
+  ],
+  "author": "Maurice Walker II",
+  "license": "ISC"
+}
